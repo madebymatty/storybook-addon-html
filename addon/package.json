@@ -1,6 +1,6 @@
 {
-  "name": "@whitespace/storybook-addon-html",
-  "version": "2.0.1",
+  "name": "@madebymatty/storybook-addon-html",
+  "version": "1.0.0",
   "description": "A Storybook addon that extracts and displays compiled syntax-highlighted HTML",
   "keywords": [
     "addon",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/whitespace-se/storybook-addon-html.git"
+    "url": "https://github.com/madebymatty/storybook-addon-html.git"
   },
   "scripts": {
     "build": "yarn clean && babel -d ./out ./src",
@@ -18,7 +18,7 @@
     "prepare": "yarn build",
     "prepublishOnly": "cp ../README.md ."
   },
-  "author": "Whitespace",
+  "author": "MadebyMatty",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
