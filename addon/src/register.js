@@ -13,5 +13,6 @@ addons.register('ws/htmlMarkup', () => {
         <Panel />
       </AddonPanel>
     ),
+    paramKey: 'htmlblock',
   });
 });
